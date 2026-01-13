@@ -2,6 +2,11 @@
 name = "spdlog-opentelemetry"
 version = "0.1.0"
 edition = "2024"
+description = "Sends logs to OpenTelemetry, based on spdlog-rs"
+repository = "https://github.com/SpriteOvO/spdlog-opentelemetry"
+license = "MIT OR Apache-2.0"
+keywords = ["spdlog", "log", "logging", "opentelemetry"]
+categories = ["development-tools::debugging"]
 
 [package.metadata.docs.rs]
 all-features = true
