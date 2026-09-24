@@ -1,6 +1,6 @@
 [package]
 name = "spdlog-opentelemetry"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2024"
 description = "Sends logs to OpenTelemetry, based on spdlog-rs"
 repository = "https://github.com/SpriteOvO/spdlog-opentelemetry"
