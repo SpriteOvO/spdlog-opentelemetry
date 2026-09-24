@@ -16,14 +16,14 @@ cargo-args = ["-Zunstable-options", "-Zrustdoc-scrape-examples"]
 must_use_candidate = "warn"
 
 [dependencies]
-opentelemetry = { version = "0.31.0", features = ["logs"] }
+opentelemetry = { version = "0.33.0", features = ["logs"] }
 spdlog-rs = "0.5.2"
 thiserror = "2.0.17"
 value-bag = { version = "1.11.1", features = ["owned", "inline-i128"] }
 
 [dev-dependencies]
-opentelemetry-otlp = { version = "0.31.0", features = ["grpc-tonic", "logs"] }
-opentelemetry_sdk = "0.31.0"
+opentelemetry-otlp = { version = "0.33.0", features = ["grpc-tonic", "logs"] }
+opentelemetry_sdk = "0.33.0"
 tokio = { version = "1.49.0", features = ["macros", "rt-multi-thread"] }
 
 [[example]]
